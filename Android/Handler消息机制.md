@@ -40,4 +40,4 @@ Handler通过post或者send方法发送一条消息到MessageQueue并插入。Lo
 
 
 
-##### d参考《Android 开发艺术探索》
+##### 参考《Android 开发艺术探索》
