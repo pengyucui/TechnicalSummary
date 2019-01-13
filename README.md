@@ -7,3 +7,6 @@
 ## 1、[Android](https://github.com/BryceCui/TechnicalSummary/tree/master/Android)
 ###        [Handler消息机制](https://github.com/BryceCui/TechnicalSummary/blob/master/Android/Handler%E6%B6%88%E6%81%AF%E6%9C%BA%E5%88%B6.md)
 ## 2、Java
+
+## 3、设计模式
+
