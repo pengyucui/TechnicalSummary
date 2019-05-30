@@ -113,8 +113,7 @@ public class Message {
 ```
 
 **效果图： **
-
-![EventBusPost](/Users/cuipengyu/Desktop/EventBusPost.gif)
+![EventBusPost](/imgs/eventBusImg/EventBusPost.gif)
 
 可能有人会说，官网的是在onStart()/onStop()中注册和反注册，你怎么在onCreate方法中注册，在onDestory方法中反注册？这样的话有一些情况我们普通的方式去发送事件，是在需要接收消息页面会收不到，因为使用时需要往已经注册的页面发送消息，才能接受到。当我们发送消息时注册方法还没有被调用和关联订阅者，那么就无法接受事件。
 
@@ -201,7 +200,7 @@ public class Main2Activity extends AppCompatActivity {
 
 **效果图**
 
-![EventBuspostSticky](/Users/cuipengyu/Desktop/EventBuspostSticky.gif)
+![EventBuspostSticky](/imgs/eventBusImg/EventBuspostSticky.gif)
 
 
 
@@ -453,7 +452,7 @@ private void subscribe(Object subscriber, SubscriberMethod subscriberMethod) {
 }
 ```
 
-**注册总结： **![注册图](/Users/cuipengyu/Downloads/Eventbus注册流程图.png)
+**注册总结： **![注册图](/imgs/eventBusImg/Eventbus注册流程图.png)
 
 注册时发送事件`checkPostStickyEventToSubscription`会调用这个方法`postSingleEventForEventType`
 
